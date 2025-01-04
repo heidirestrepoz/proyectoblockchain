@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Ejemplo de HTML">
+    <meta name="keywords" content="HTML,CSS3, JavaScript">
+    <title> Primer proyecto Blockchain Heidi Restrepo </title>
+    <link rel="stylesheet" href="PROYECTO/misestilos.css" type="text/css"> 
+
+</head>
+<body>
+    <div id="cuerpo">
+        <header id="encabezado"> 
+            
+            <div class="Titulo"></div>
+            <h1> ¿Qué es el Blockchain? </h1>  
+            <img src="imagenes/img0.jpg" alt="Imagenreferente" class="img0">
+
+            
+    </header>
+
+    <nav id="menú">
+        <a href="#" class="nav-enlace">Módulo 1</a>
+        <a href="#" class="nav-enlace">Módulo 2</a>
+        <a href="#" class="nav-enlace">Módulo 3</a>
+    </nav>
+
+    <section id="sección"> 
+        <div id="anuncio" style="
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(184, 249, 253);
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;">
+        <div style="
+        background-color: #0295b2cc;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;">
+        <button id="cerrar" style="
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color:rgb(255, 255, 255) ;
+        color: #0295b2cc;
+        border: none;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        cursor: pointer;">x</button>
+        <img src="imagenes/anuncio.jpg" alt="anuncio" style="
+        max-width: 40%;
+        height: 40%;
+        border-radius: 10px;">
+        <p class="anunciotexto"> ¡No te lo pierdas!</p>
+        </div>
+        </div>
+        <article> 
+            <h2> Intruducción a la tecnología blockchain </h2>
+                <img src="imagenes/img1.jpg" alt="Imagenreferente" class="img1"> 
+                
+                <p> El Bitcoin es el ejemplo más conocido que usa la tecnología blockchain. Sin embargo, la tecnología se ha
+                    extendido a una amplia gama de aplicaciones más allá de las criptomonedas. La emisión y negociación de
+                    títulos valores, la trazabilidad de la cadena logística, los contratos, operaciones de seguros, contabilidad en
+                    tiempo real o inclusive procesos electorales son ejemplos de aplicaciones que se le ha dado a la tecnología.
+                    En la última década, esta tecnología ha atraído el interés de un gran número de personas actuando en distintos
+                    campos del conocimiento: finanzas, salud, servicios públicos, propiedades, sector público, etc. Esto se debe a
+                    las múltiples ventajas que genera la tecnología, entre ellos la prescindencia de intermediarios, innovación que
+                    hace posible operar de manera descentralizada y sin necesidad de una autoridad central.
+                    A título de ejemplo, se pueden mencionar algunas innovaciones vinculadas a la blockchain:
+                    <br>
+                    <mark class="negrilla">1. Propiedad industrial o intelectual:</mark> permite certificar la propiedad de cualquier tipo de creación. Por
+                    ejemplo un músico puede registrar la propiedad intelectual de su obra o un diseñador gráfico su
+                    creación sin necesidad de acudir a un complejo proceso de registro, generalmente muy burocrático y
+                    costoso.
+                    <br>
+                    <mark class="negrilla">2. Remesas de dinero de un país a otro: </mark>este tipo de operatoria está sujeta a cargos elevados por parte
+                    de las compañías que las realizan, por ejemplo Western Union. Bitcoin (u otra criptomoneda) y
+                    blockchain pueden solucionar esto a un costo marginal muy pequeño.
+                    <br>
+                    <mark class="negrilla">3. Registro de personas: </mark>para identificarlas y hacerles llegar servicios, educación, salud, etc. El registro es
+                    inviolable y mucho mejor que un documento impreso, sujeto a posibles falsificaciones o incluso a
+                    extravío.
+                    <br>
+                    <mark class="negrilla">4. Trazabilidad: </mark> consiste en realizar un seguimiento de casi cualquier cosa a lo largo de su cadena
+                    logística. A modo de ejemplo podría conocer de dónde viene la carne de la hamburguesa que comemos, o dónde viene el algodón de la remera que usamos. Esta aplicación será descripta con
+                    mayor profundidad en el siguiente apartado por estar vinculada a las Ciencias Económicas.
+                    <br>
+                    <mark class="negrilla">5. Contratos inteligentes (smart contracts):</mark> esta aplicación también será descripta con profundidad en el
+                    siguiente apartado, sin embargo, es menester hacer referencia a algunas cuestiones aquí. La
+                    blockchain funciona como un “oráculo”, dando lugar a cierta acción o respuesta si se cumplen ciertas
+                    y determinadas condiciones. Es una especie de contrato autoejecutable, condicionado a un conjunto
+                    de especificaciones, que disparan un evento o compensación en caso de que se produzcan, sin la
+                    intervención de las partes contratantes o las instituciones relacionadas al contrato. Un ejemplo
+                    específico podría ser el cobro automático de una indemnización por haber sufrido un accidente, que
+                    estaba asegurado con un smart contract.
+                    <br>
+                    <mark class="negrilla">6. Procesos electorales:</mark> con la blockchain queda todo el proceso registrado, desde la identidad digital
+                    del votante hasta el conteo de votos. 
+                    <br>
+                    <br>
+                    La blockchain funciona como un gran registro contable (“libro mayor”) en donde se anotan todas las
+                    transacciones realizadas. Aproximadamente cada diez minutos, se hace una copia y se agrega un bloque. De
+                    ahí surge el nombre de blockchain o cadena de bloques.
+                    Se compone de una base de datos donde se registran todas las transacciones, con los datos de entrada y salida
+                    de las personas involucradas y el valor de la transacción de manera encriptada. Los datos son almacenados en
+                    cadenas de bloques, codificados a través de un hash y distribuidos en una red de nodos, donde cada uno tiene
+                    una copia idéntica de ese “libro mayor” que representa la cadena de bloques, dificultando el acceso o
+                    manipulación indebida de la información y permitiendo generar mayor nivel de confianza, ya que al momento de realizar la transacción, cada nodo participante de la red es el encargado de la verificación y autenticación de
+                    las transacciones.</p>
+            <footer>
+            <small> Bartolomeo, A.  Machin, G. "Introducción a la tecnología blockchain" (2020) </small>
+            </footer>
+            </article> 
+            <article>
+            <h2> Historia y evolución del blockchain </h2>
+            <img src="imagenes/img2.jpg" alt="Imagenreferente" class="img2">
+            <p> La blockchain (o cadena de bloques) es la tecnología que está detrás de la criptomoneda Bitcoin. Si bien existen
+                antecedentes de la tecnología blockchain (Alan Turing en 1936, Stuart Haber y W. Scott Stornetta en 1991,
+                2
+                Nick Szarbo en 1997, entre otros), su primera aplicación surge como respuesta al problema del doble gasto
+                (double spending) asociado al Bitcoin en el año 2009. Algo que se puede copiar infinitas veces, como es el caso
+                de una moneda virtual, solo debía ser gastada una sola vez. Al mismo tiempo, se buscó independizar su
+                funcionamiento de cualquier institución o entidad nacional o internacional que controle o regule la moneda
+                virtual. Por su propia naturaleza, funciona en una red descentralizada, formada por miles de ordenadores
+                (nodos), con un crecimiento impresionante durante los últimos años. Esta red de ordenadores tiene tantas
+                copias de la red como integrantes existen. A cambio de guardar esta copia, quienes forman la red reciben
+                Bitcoins.
+                En la blockchain lo central es la transacción. Cada transacción tiene varias partes, entre ellas es posible
+                distinguir:
+                <br>
+                <mark class="negrilla">a)</mark> una dirección de la persona que emite la transacción y una dirección destino que es a quien está
+                dirigida,
+                <br>
+                <mark class="negrilla">b) </mark> cantidad de Bitcoins que se quieren enviar y
+                <br>
+                <mark class="negrilla">c) </mark> firma digital. Esta firma es una parte muy importante de la transacción, el destinatario sabe quién se
+                la envía. Además está relacionada con la validación por parte de la red Bitcoin de la transacción
+                realizada.
+                La red Bitcoin está formada por nodos. Un nodo es cualquier cosa con capacidad de cómputo y
+                almacenamiento: una tablet, un servidor o la computadora personal de nuestra casa. Lo importante de este
+                tipo de redes es que son descentralizadas, no existe un único nodo que se encargue de manejar la información.
+                Es decir que los datos están distribuidos en toda la red de nodos. En cada nodo hay una copia del contenido de
+                toda la red. Al no haber un nodo central, cualquiera con cierto poder de procesamiento, puede participar de la
+                red (Mora, 2016).
+                <br>
+                <br>
+                <mark class="negrilla">Ejemplo de transacción:</mark> si A quiere enviarle Bitcoins a B, lo que tiene que hacer A, en primer lugar es
+                conectarse a un nodo de la red Bitcoin. Al enviar la transacción, el nodo que la recibe, la almacena y la envía a
+                los nodos más cercanos. La transacción va pasando por todos los nodos de la red. En algún momento, esa
+                transacción estará disponible en el nodo más cercano al destinatario. El destinatario verifica en su nodo
+                cercano si hay alguna transacción para él, verá que hay una transacción que envía A, por un determinado
+                monto de Bitcoins. Esta transacción ha sido validada por todos los demás nodos de la red.
+                El hecho de que la red sea descentralizada, trae algunas complicaciones para administrar los contenidos, ya
+                que están distribuidos por todos los nodos. En respuesta a esta complejidad, Bitcoin desarrolló el concepto de
+                blockchain. Cuando la transacción llega a un nodo, éste intenta construir un bloque con todas las transacciones
+                que le van llegando. Todos los nodos de la red tienen que resolver un reto matemático, el primer nodo que lo
+                consiga hará que el bloque forme parte de la blockchain y por consiguiente el bloque quedará validado. Los
+                intentos de los otros nodos se descartan. El ganador del reto recibirá una compensación en Bitcoins. Cuando el
+                bloque ha sido validado, se copiará a toda la red, de modo que todos tengan la misma copia de la cadena de
+                bloques. Esta tecnología hace que la red descentralizada sea absolutamente segura respecto a su contenido,
+                resistente a toda manipulación de datos y en la que queda identificada la autoría de la transacción, el
+                destinatario conoce quién se la ha enviado.</p>
+            <footer>
+            <small> Bartolomeo, A.  Machin, G. "Introducción a la tecnología blockchain" (2020) </small>
+            </footer>
+            </article>
+            <article>
+                <h2> Principios básicos y terminología clave del blockchain </h2>
+                <img src="imagenes/img3.jpg" alt="Imagenreferente" class="img3">
+                <p> <mark class="negrilla">1.Nodo:</mark>  un ordenador o computadora. Para poder comunicarse entre sí a través de una blockchain,
+                    todos los ordenadores involucrados deben funcionar bajo el mismo software o protocolo. Las
+                    computadoras se encuentran conectadas en la red.
+<br>
+<mark class="negrilla"> 2. Nodos Regulares (Mineros):</mark> Son los encargados de replicar la blockchain, aceptando los bloques
+                    generados por los validadores y ejecutando las transacciones incluidas en los mismos. Estos nodos son
+                    los que inyectan transacciones en la red, a partir de fuentes externas al blockchain” (Alastria, s.f.).
+<br>
+<mark class="negrilla"> 3. Hash: </mark> matemático que transforma cualquier bloque de datos en una nueva serie de
+                    caracteres con una longitud fija. Independientemente de la longitud de los datos de entrada, el valor
+                    hash de salida tendrá siempre la misma longitud” (Vidal, 2014).
+                    <br>
+                    <mark class="negrilla"> 4. Nonce: </mark>úmero aleatorio añadido al hash de cada bloque.
+                    <br>
+                    <mark class="negrilla"> 5. Bloque:</mark> se crea en cada uno de los nodos, y poseen la copia exacta de la información. Cuando se logra
+                    la verificación y confirmación de todos los nodos participantes de la red blockchain, se crea el nuevo
+                    bloque, con el hash correspondiente, y se añade automáticamente a la cadena sin que medie
+                    autorización de un tercero. “Los bloques de transacciones son usualmente publicados en el libro
+                    contable compartido a intervalos de diez minutos” (EquiSoft, 2017).
+                    <br>
+                    <mark class="negrilla"> 6. Fuerza de trabajo (proof-of-work): </mark> proceso de producción del bloque. Se trata de resolver un
+                    problema matemático, y una vez resuelto, se añade el bloque en cuestión. Entre todos los nodos, el
+                    primero en resolver el problema es quien puede añadir el siguiente bloque a la cadena (Legarda,
+                    2018).
+                    <br>
+                    <mark class="negrilla">7. Billetera (cartera o wallet):</mark> conjunto de claves, una pública y otra privada, que aseguran la seguridad
+                    de las transacciones. Cualquiera puede lanzar una transacción utilizando la clave pública de la
+                    dirección de un receptor pero solo el propietario de esa dirección que es quien tiene la clave privada
+                    puede acceder al valor de la transacción. De esa manera, sólo el receptor puede descifrar la
+                    transacción con la clave privada emparejada a la clave pública. La denominación wallet proviene del
+                    Bitcoin y podría almacenar otros elementos pudiendo ser un contenedor de credenciales (Legarda,
+                    2018).
+                    <br>
+                    <mark class="negrilla"> 8. Protocolo: </mark>“Es en forma de software informático y permite que la red de nodos puedan comunicarse
+                    entre sí” (Preukschat, 2017). A través del protocolo se establecen las reglas que definen el
+                    comportamiento de los nodos que actuarán en la blockchain.</p>
+                <footer>
+                <small> Bartolomeo, A.  Machin, G. "Introducción a la tecnología blockchain" (2020)   </small>
+                </footer>
+                </article>
+           
+     </section>
+
+     <aside id="lateral"> 
+     <form name=" Formulario"> 
+     <h2> Formulario Web</h2>
+     <table border = "0">
+     <tr><td> Nombre:</td><td><input type="Text" name="txtNombre" placeholder="Ingrese Nombre" required></td></tr>
+     <tr><td> Correo:</td><td><input type="Email" name="miEmail" placeholder="Ingrese Email"></td></tr>
+     <tr><td> Estrato:</td><td><input type="number" name="numEst" placeholder="Ingrese Estrato" min="1" max="6" step="1"/></td></tr> 
+     <tr><td> Fecha:</td><td><input type="date" name="fecha" placeholder="Ingrese fecha"></td></tr>
+     <tr><td> <input type="submit" name="btnEnviar" value="Enviar"/></td>
+     </tr>
+    </table> 
+    </form>   
+     </aside>
+    
+     <footer id="pie"> 
+        Heidi Restrepo Zabala
+        <br>
+        heidiRestrepoz@gmail.com
+        <br>
+        2024  
+     </footer>
+     <script src="PROYECTO/anuncio.js"></script>
+</body>
+</html>

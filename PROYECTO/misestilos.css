@@ -1,0 +1,217 @@
+*{
+    margin:Opx;
+    padding:Opx;
+}
+h1{
+    font:bold;
+    font-size:65px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:inherit;
+    color: #000;
+    float: right;
+}
+h2{
+    font:bold 20px 'Times New Roman', Times, serif;
+}
+body{
+    text-align: center;
+    background-color:#e7eefc;
+}
+#cuerpo{
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+    background-color:#e7eefc;
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.nav-enlace{
+    background: #abc8f9;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.nav-enlace:hover{
+background: #c5daff;
+font-weight: bold;
+}
+.nav{
+background: #c5daff;
+padding: 10px;
+}
+
+#encabezado{
+    background: #c5daff;
+    border: 3px solid #c5daff;
+    padding: 25px 25px;
+   font: bold 20px;
+    text-align:right; 
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    width: 908px;
+   
+}
+#menú{
+    background: #d6e5ff;
+    border: 3px solid #c5daff;
+    padding: 5px 15px;
+    margin: 2px;
+    background: #d6e5ff,#b3b2b2;
+    background: #d6e5ff, #b3b2b2; 
+    text-align:justify;
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#sección{
+    float: left;
+    width: 660px;
+    margin: 20px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.img0{
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    width: 180px;
+    height: 140px;
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+.img0{
+    transition: 0.3s;
+    width: 180px;
+    height: 180px;
+}
+.img0:hover{
+    scale: 1.1;
+}
+.img1{
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.img1{
+    transition: 0.3s;
+    width: 200px;
+}
+.img1:hover{
+    scale: 1.1;
+}
+.img2{
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.img2{
+    transition: 0.3s;
+    width: 200px;
+}
+.img2:hover{
+    scale: 1.1;
+}
+.img3{
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.img3{
+    transition: 0.3s;
+    width: 200px;
+}
+.img3:hover{
+    scale: 1.1;
+}
+
+#lateral{
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #c5daff;
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: #c5daff(150,150,150) 5px 5px;
+    -webkit-box-shadow: #c5daff(150,150,150) 5px 5px;
+    box-shadow: #c5daff(150,150,150) 5px 5px; 
+
+}
+.anunciotexto{
+    font-size: 20px;
+    color: #ffffff;
+}
+#pie{
+    clear: both;
+    text-align: justify;
+    padding: 25px;
+    border-top:5px solid #c5daff;
+    border-bottom: 5px solid #c5daff;
+    -moz-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+article{
+    background: #d6e5ff;
+    border: 3px solid #c5daff; 
+background-color:#d6e5ff;  
+color:black;
+    padding: 20px;
+    margin-bottom: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: #c5daff(150,150,150) 10px 10px;
+    -webkit-box-shadow: #c5daff(150,150,150) 10px 10px;
+    box-shadow: #c5daff(150,150,150) 10px 10px;  
+}
+.negrilla{
+    background: #c5daff;
+    border: 3px solid #c5daff;
+    padding: 2px; 
+background-color:#b7cff9;  
+color:black;
+font-weight: bold;
+-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: #c5daff(150,150,150) 10px 10px;
+    -webkit-box-shadow: #c5daff(150,150,150) 10px 10px;
+    box-shadow: #c5daff(150,150,150) 10px 10px; 
+}
+article footer {
+    text-align: right;
+}
+#menú li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px 'Times New Roman', Times, serif;
+}
+table{
+    text-shadow: #c5daff (232, 235, 238) 2px 2px 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px; 
+}
